@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Gotham Pro Medium';
+  src: url("../fonts/GothamPro-Medium.woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham Pro Bold';
+  src: url("../fonts/GothamPro-Medium.woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Georgia Italic';
+  font-weight: normal;
+  src: url("../fonts/Georgia-Italic.woff");
+  font-style: normal; }

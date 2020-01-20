@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/main.css" rel="stylesheet">
+    <title>витзитка</title>
+</head>
+<body>
+    
+        <header>
+            <div class="menu">
+                <div class="wrap__logo-left">
+                  <span><a class="logo" href="">FROZO</a></span>
+                </div>
+                <div class="menu-wrap">
+                    <ul class="navbar">
+                        <li><a class="element_menu" href="#uane">WORK</a></li>
+                        <li><a class="element_menu" href="#team">TEAM</a></li>
+                        <li><a class="element_menu" href="#tree">CONTACT</a></li>
+                      </ul>
+                </div>
+        
+                <div class="mobel__menu">
+                    <button class="menu__btn">
+                        <span>menu</span>
+                      </button>
+                  </div>
+
+            </div>
+        </header>
+    
+        <section>
+            <div class="wraper__opisanie">
+                <div class="wrap__blokc-position">
+                <div class="box"><h4  class="glitch">LET US MAKE<br>YOUR LIVES EASIER</h4></div>
+                <span><p class="slogon_num-2" >We specialize in crafting awesome ideas for web, mobile and beyond.</p></span>
+            </div>
+ 
+            <div class="wraper__bool">
+                <div class="bool bool-1"></div>
+                <div class="bool bool-2"></div>
+                <div class="bool bool-3"></div>
+                <div class="bool bool-4"></div>
+            </div>
+
+            </div>
+        </section>
+   
+        <section>
+            <div class="wrap__projekt">
+                <div id="uane" class="projekt-opisanie">FEATURED WORK</div>
+                <div class="line"></div>
+                <p class="project__opisanie-slim">Here you can find some of our latest works, to see the details of these works<br>
+                    just click the thumbnails below.</p>
+
+                    <div class="catalog__projekt">
+                <a class="pos" href=""><img src="img/r.png" alt=""></a>
+                <a class="pos" href=""><img src="img/r.png" alt=""></a>
+                <a class="pos" href=""><img src="img/r.png" alt=""></a>
+            </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="wrap__projekt-1">
+                <div  id="team" class="projekt-opisanie">TEAM</div>
+                <div class="line"></div>
+                <p class="project__opisanie-slim">We are a hard working group, who's aim is to listen to your problems<br>
+                    and to come up with the best solution possible. We follow the lates trends on<br>
+                    the web to create custom talierd niche websites.</p>
+                    <div class="catalog__projekt">
+                        <a class="pos" href=""><img src="img/r.png" alt=""></a>
+                        <a class="pos" href=""><img src="img/r.png" alt=""></a>
+                        <a class="pos" href=""><img src="img/r.png" alt=""></a>
+                    </div>
+            </div>
+        </section>
+        <section class="end">
+        </section>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.js"
+  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+  crossorigin="anonymous"></script>
+
+  <script>
+
+
+
+    $(".mobel__menu").on("click",function(e){
+      e.preventDefault();
+       $(".menu__btn").toggleClass("menu-active")
+       $(".menu-wrap").toggleClass("menu-active")
+})
+  
+  </script>
+
+</body>
+</html>

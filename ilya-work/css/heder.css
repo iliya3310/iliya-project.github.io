@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  width: auto;
+  height: auto;
+  min-height: 80px;
+  text-align: center;
+  background-color: white; }
+
+.menu {
+  width: 78%;
+  height: auto;
+  min-height: 80px;
+  background-color: white;
+  display: inline-block; }
+
+.logo {
+  text-decoration: none;
+  color: #4c4c4c;
+  font-size: 25px;
+  font-family: 'Gotham Pro Bold';
+  float: left;
+  cursor: pointer;
+  margin-top: 25px; }
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding-left: 0; }
+
+.element_menu {
+  text-decoration: none;
+  color: #001a41;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: 'Gotham Pro Medium';
+  padding-left: 100px; }
+  .element_menu:hover {
+    color: #00717d; }
+
+li {
+  display: inline-block; }
+
+.menu-wrap {
+  float: right;
+  display: inline-block;
+  margin-top: 30px; }
+
+.mobel__menu {
+  margin-top: -5px;
+  cursor: pointer;
+  display: none; }
+
+.menu__btn {
+  display: block; }
+
+@media screen and (max-width: 705px) {
+  .element_menu {
+    display: block; } }
+
+@media screen and (max-width: 705px) {
+  .menu__btn {
+    margin-top: -70px;
+    float: right; } }
+
+@media screen and (max-width: 705px) {
+  .mobel__menu {
+    display: block; }
+  .menu-wrap {
+    visibility: hidden;
+    opacity: 0; }
+  .menu-wrap.menu-active {
+    visibility: visible;
+    opacity: 1; } }

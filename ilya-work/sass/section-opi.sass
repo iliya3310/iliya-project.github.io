@@ -1,0 +1,108 @@
+.wraper__opisanie
+    width: 100%
+    height: 500px
+    background-color:  black
+    
+    
+.glitch
+    text-align: center
+    font-family: 'Gotham Pro Medium'
+    font-size: 40px
+    color: rgb(255,255,255)
+    font-weight: 800
+.slogon_num-2    
+    font-size: 16px
+    font-family: 'Georgia Italic'
+    color: rgb(169,172,151)
+    text-align: center
+
+.wrap__blokc-position
+    padding-top: 100px
+    display: inline-blocks
+
+///////////////////////////////// анимация 2 блока///////////////////////////////
+
+
+$size: 25px    
+$distans: 24px   
+$speed: 3s
+$animation: ease-in-out
+$delay: 0s
+$repeatability: infinite   
+$col: rgb(169,172,151) 
+
+
+.wraper__bool,
+ .bool
+    width: $size
+    height: $size
+
+.wraper__bool
+    position: relative
+    margin-left: 50%
+    margin-top: 50px
+
+.bool
+    position: absolute
+    border-radius: $size
+    animation: $speed 
+
+.bool-1
+      background-color: $col
+      animation: $speed $animation $delay $repeatability bool-1 
+
+.bool-2
+      background-color: $col
+      animation: $speed $animation $delay $repeatability bool-2
+      
+.bool-3
+      background-color: $col
+      animation: $speed $animation $delay $repeatability bool-3 
+
+.bool-4
+      background-color: $col
+      animation: $speed $animation $delay $repeatability bool-4
+
+@keyframes bool-1 
+ 0%
+ 100%  
+    transform: translate(0, 0)
+ 25%  
+    transform: translate(0, -$distans)
+ 50%
+    transform: translate($distans, 0) 
+ 75%
+    transform: translate(-$distans, 0)
+ 
+@keyframes bool-2
+ 0%
+ 100%  
+    transform: translate(0, 0)
+ 25%  
+    transform: translate(-$distans, 0)
+ 50%
+    transform: translate(0, -$distans,) 
+ 75%
+    transform: translate(0, $distans)
+ 
+@keyframes bool-3
+ 0%
+ 100%  
+    transform: translate(0, 0)
+ 25%  
+    transform: translate(0, $distans)
+ 50%
+    transform: translate(-$distans, 0) 
+ 75%
+    transform: translate($distans, 0)
+ 
+@keyframes bool-4
+ 0%
+ 100%  
+    transform: translate(0, 0)
+ 25%  
+    transform: translate($distans, 0)
+ 50%
+    transform: translate(0, $distans,) 
+ 75%
+    transform: translate(0, -$distans)
